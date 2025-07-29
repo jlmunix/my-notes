@@ -1,0 +1,58 @@
+.post-content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  /* ...other styles... */
+}
+
+/* Remove double border on corners */
+.post-content table th:first-child,
+.post-content table td:first-child {
+  border-left: none;
+}
+.post-content table th:last-child,
+.post-content table td:last-child {
+  border-right: none;
+}
+.post-content table tr:first-child th,
+.post-content table tr:first-child td {
+  border-top: none;
+}
+.post-content table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Only style tables inside code blocks (Chroma/Hugo) */
+.highlight table,
+.chroma table,
+.lntable {
+  /* Your code reference table styles here */
+  border-collapse: collapse;
+  width: auto;
+  margin: 0;
+  background: #24273a;
+  color: #cad3f5;
+  border: none;
+  font-size: 1em;
+  border-radius: 3;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  overflow: visible;
+  display: table;
+  /* Add any other styles you want for code reference tables */
+}
+
+/* Keep the top header fixed at the top of the page */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  background: #fff; /* or use your theme's background color */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+body {
+  padding-top: 80px; /* adjust to your header's height if needed */
+}
+

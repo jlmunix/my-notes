@@ -1,0 +1,59 @@
+:root {
+  --table-header-bg: #ffffff;
+  --table-header-color: #ff0000;
+  --table-bg: #ffffff;
+  --table-border: #e6e6e6;
+  --table-row-bg: #dfdfdf;
+  --table-row-alt-bg: #f3f3f3;
+  --table-text: #252525;
+  --table-bg-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);;
+}
+
+.dark {
+  --table-header-bg: #0000e0;
+  --table-header-color: #d2d7ff;
+  --table-bg: #1b1b1b;
+  --table-border: #2e2e2e;
+  --table-row-bg: #ffffff;
+  --table-row-alt-bg: #000025;
+  --table-text: #eee;
+  --table-bg-shadow: 5px 5px 5px rgba(0, 0, 0, 0.938);;
+}
+
+/* Only style tables that are NOT inside code blocks */
+.post-content table:not(.lntable):not(.highlight table):not(.chroma table) {
+  border-collapse: collapse;
+  width: auto;
+  margin: 2em 0;
+  background: var(--table-bg);
+  color: var(--table-text);
+  border: 2px solid black;
+  font-size: 1.1em;
+  border-radius: 7px;
+  box-shadow: var(--table-bg-shadow);
+  overflow: hidden;
+  display: inline-block;
+}
+
+.post-content th, .post-content td {
+  padding: 0.9em 1.5em;
+  border: 1px solid var(--table-border);
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* Reset table styles for code blocks */
+.highlight table, .chroma table, .lntable {
+  all: unset;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: none;
+  color: inherit;
+  box-shadow: none;
+  border: none;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  display: table;
+}
