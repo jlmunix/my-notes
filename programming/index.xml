@@ -2,20 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Programmings on Personal site of myself</title>
-    <link>http://localhost:1313/programming/</link>
+    <link>http://localhost:37759/my-notes/programming/</link>
     <description>Recent content in Programmings on Personal site of myself</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jul 2025 02:13:44 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bit parity counter (folding method)</title>
-      <link>http://localhost:1313/programming/c/bit_parity_counter_folding/</link>
-      <pubDate>Sun, 27 Jul 2025 02:13:44 -0400</pubDate>
-      <guid>http://localhost:1313/programming/c/bit_parity_counter_folding/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Bit shifting is one of the most powerful tools in a low-level programmer&amp;rsquo;s toolbox. It allows direct manipulation of individual bits — a feature that shines in embedded systems, digital signal processing, and algorithm optimization.&lt;/p&gt;
-&lt;p&gt;One common use of bitwise operations is checking &lt;strong&gt;parity&lt;/strong&gt; — whether the number of &lt;code&gt;1&lt;/code&gt; bits in a binary representation is &lt;strong&gt;even&lt;/strong&gt; or &lt;strong&gt;odd&lt;/strong&gt;. This can be useful for simple error detection, flag compression, or implementing certain logic gates in software.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:37759/my-notes/programming/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

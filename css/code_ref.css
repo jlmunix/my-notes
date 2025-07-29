@@ -49,10 +49,40 @@
   left: 0;
   width: 100vw;
   z-index: 1000;
-  background: #fff; /* or use your theme's background color */
+  background: var(--theme-bg); /* Use theme background for light/dark mode */
+  background-color: var(--theme-bg, #fff); /* Fallback for solid background */
+  color: var(--theme-text); /* Ensure header text adapts to theme */
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  backdrop-filter: none; /* Ensure no blur/opacity */
 }
 body {
   padding-top: 80px; /* adjust to your header's height if needed */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Vertically center content */
+  background: var(--theme-bg, #f7f7f7);
+}
+
+.main-content, .content, .page-content, .home-main, .single-main {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto; /* Remove top margin for better vertical centering */
+  padding: 16px 24px;
+  background: var(--theme-bg, #fff);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px; /* Add space between children */
+}
+
+@media (max-width: 900px) {
+  .main-content, .content, .page-content, .home-main, .single-main {
+    max-width: 98vw;
+    padding: 18px 4vw;
+  }
 }
 
