@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Personal site of myself</title>
-    <link>http://localhost:45323/my-notes/posts/</link>
+    <link>https://jlmunix.github.io/my-notes/posts/</link>
     <description>Recent content in Posts on Personal site of myself</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Jul 2025 17:52:28 -0400</lastBuildDate>
-    <atom:link href="http://localhost:45323/my-notes/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jlmunix.github.io/my-notes/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hola Mundo</title>
-      <link>http://localhost:45323/my-notes/posts/hola-mundo/</link>
+      <link>https://jlmunix.github.io/my-notes/posts/hola-mundo/</link>
       <pubDate>Thu, 24 Jul 2025 17:52:28 -0400</pubDate>
-      <guid>http://localhost:45323/my-notes/posts/hola-mundo/</guid>
+      <guid>https://jlmunix.github.io/my-notes/posts/hola-mundo/</guid>
       <description>&lt;p&gt;Este es mi primer post técnico con Hugo y PaperMod.&lt;/p&gt;
 &lt;p&gt;Este un codigo de ejemplo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -34,22 +34,22 @@ Mas texto&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home</title>
-      <link>http://localhost:45323/my-notes/posts/index_tutorials/</link>
+      <link>https://jlmunix.github.io/my-notes/posts/index_tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:45323/my-notes/posts/index_tutorials/</guid>
+      <guid>https://jlmunix.github.io/my-notes/posts/index_tutorials/</guid>
       <description>&lt;h2 id=&#34;my-tutorials&#34;&gt;My Tutorials&lt;/h2&gt;
 &lt;h2 id=&#34;embedded-systems&#34;&gt;Embedded Systems&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:45323/my-notes/posts/yocto-intro/&#34;&gt;Intro to Yocto&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:45323/my-notes/posts/i2c-debug/&#34;&gt;Debugging I2C on Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/yocto-intro/&#34;&gt;Intro to Yocto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/i2c-debug/&#34;&gt;Debugging I2C on Linux&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;bootloaders&#34;&gt;Bootloaders&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:45323/my-notes/posts/u-boot-args/&#34;&gt;U-Boot Boot Args Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/u-boot-args/&#34;&gt;U-Boot Boot Args Explained&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:45323/my-notes/posts/something/&#34;&gt;Sample Linux tuto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/something/&#34;&gt;Sample Linux tuto&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

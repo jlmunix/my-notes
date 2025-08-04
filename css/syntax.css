@@ -599,22 +599,19 @@ pre[class*="language-"]
   opacity: 1;
 }
 
-.header, .site-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  z-index: 850;
-  background: #181920; /* or use your theme's background */
+  z-index: 1000;
+  background: var(--theme-bg);
+  background-color: var(--theme-bg, #fff);
+  color: var(--theme-text);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  backdrop-filter: none;
 }
 body {
-  padding-top: 56px; /* adjust to your header's height */
+  padding-top: 80px;
 }
 
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 850;
-  background: inherit;
-}
