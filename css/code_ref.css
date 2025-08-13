@@ -6,7 +6,7 @@
   /* ...other styles... */
 }
 
-Remove double border on corners
+/* Remove double border on corners */
 .post-content table th:first-child,
 .post-content table td:first-child {
   border-left: none;
