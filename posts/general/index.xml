@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GNU/Linux on Personal site of myself</title>
+    <link>https://jlmunix.github.io/my-notes/posts/general/</link>
+    <description>Recent content in GNU/Linux on Personal site of myself</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-us</language>
+    <atom:link href="https://jlmunix.github.io/my-notes/posts/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Debian in a virtualized environment</title>
+      <link>https://jlmunix.github.io/my-notes/posts/general/qemu/qemu_install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jlmunix.github.io/my-notes/posts/general/qemu/qemu_install/</guid>
+      <description>&lt;!-- markdownlint-disable MD033 --&gt;
+&lt;p&gt;Need a safe sandbox to test drivers or experiments without risking your main OS? A virtual machine (VM) is a fast, safe way to do it with KVM/QEMU.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A Debian/Ubuntu host with hardware virtualization&lt;/li&gt;
+&lt;li&gt;CPU virtualization enabled in BIOS/UEFI (Intel VT-x or AMD-V)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Quick checks:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# CPU supports virtualization? (&amp;gt;0 means yes)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;egrep -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;(vmx|svm)&amp;#39;&lt;/span&gt; /proc/cpuinfo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lscpu &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep -i virtualization &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Optional on Ubuntu: sudo apt install cpu-checker &amp;amp;&amp;amp; kvm-ok&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s update the system and install the necessary tools:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

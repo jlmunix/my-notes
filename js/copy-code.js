@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Insert button
     block.style.position = 'relative';
     button.style.position = 'absolute';
-    button.style.top = '10px';
-    button.style.right = '10px';
+    button.style.top = '3px';
+    button.style.right = '3px';
     block.appendChild(button);
 
     // Copy logic

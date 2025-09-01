@@ -38,19 +38,24 @@ Mas texto&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jlmunix.github.io/my-notes/posts/index_tutorials/</guid>
       <description>&lt;h2 id=&#34;my-tutorials&#34;&gt;My Tutorials&lt;/h2&gt;
-&lt;h2 id=&#34;embedded-systems&#34;&gt;Embedded Systems&lt;/h2&gt;
+&lt;h2 id=&#34;general-topics&#34;&gt;General topics&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/yocto-intro/&#34;&gt;Intro to Yocto&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/i2c-debug/&#34;&gt;Debugging I2C on Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/general&#34;&gt;General topics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;programming-posts&#34;&gt;Programming posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/programming/&#34;&gt;C/C++&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;bootloaders&#34;&gt;Bootloaders&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/u-boot-args/&#34;&gt;U-Boot Boot Args Explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[No posts yet]&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!-- - [U-Boot Boot Args Exdplained](/posts/u-boot-args/) --&gt;
 &lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes/posts/something/&#34;&gt;Sample Linux tuto&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;[No posts yet]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- - [Sample Linux tuto](/posts/something/) --&gt;</description>
     </item>
   </channel>
 </rss>

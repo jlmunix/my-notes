@@ -5,11 +5,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Categories | Personal site of myself</title>
+<title>GNU/Linux | Personal site of myself</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="
+The intention of this section is to keep tutorials or notes about general topics, as GNU apps, QEMU,
+distro installations, etc.
+
+  
+  GNU: GNU&#39;s Not Unix.
+">
 <meta name="author" content="">
-<link rel="canonical" href="https://jlmunix.github.io/my-notes/categories/">
+<link rel="canonical" href="https://jlmunix.github.io/my-notes/posts/general/">
 <link crossorigin="anonymous" href="/my-notes/assets/css/stylesheet.de69efb33e4803ccb402fd7754c6d400851fb57309cb2a6fb879d44a195cb1a2.css" integrity="sha256-3mnvsz5IA8y0Av13VMbUAIUftXMJyypvuHnUShlcsaI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jlmunix.github.io/my-notes/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://jlmunix.github.io/my-notes/favicon-16x16.png">
@@ -18,8 +24,8 @@
 <link rel="mask-icon" href="https://jlmunix.github.io/my-notes/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://jlmunix.github.io/my-notes/categories/index.xml">
-<link rel="alternate" hreflang="en" href="https://jlmunix.github.io/my-notes/categories/">
+<link rel="alternate" type="application/rss+xml" href="https://jlmunix.github.io/my-notes/posts/general/index.xml">
+<link rel="alternate" hreflang="en" href="https://jlmunix.github.io/my-notes/posts/general/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,15 +62,38 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://jlmunix.github.io/my-notes/categories/">
+</noscript><meta property="og:url" content="https://jlmunix.github.io/my-notes/posts/general/">
   <meta property="og:site_name" content="Personal site of myself">
-  <meta property="og:title" content="Categories">
+  <meta property="og:title" content="GNU/Linux">
+  <meta property="og:description" content=" The intention of this section is to keep tutorials or notes about general topics, as GNU apps, QEMU, distro installations, etc.
+GNU: GNU&#39;s Not Unix. ">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Categories">
+<meta name="twitter:title" content="GNU/Linux">
 <meta name="twitter:description" content="">
-<link rel="stylesheet" href="/css/tables.css">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jlmunix.github.io/my-notes/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "GNU/Linux",
+      "item": "https://jlmunix.github.io/my-notes/posts/general/"
+    }
+  ]
+}
+</script><link rel="stylesheet" href="/css/tables.css">
 <link rel="stylesheet" href="/css/code_ref.css">
 <script src="/js/copy-code.js"></script></head>
 
@@ -115,7 +144,7 @@
             </li>
             <li>
                 <a href="https://jlmunix.github.io/my-notes/posts/general/" title="🔗  General">
-                    <span>🔗  General</span>
+                    <span class="active">🔗  General</span>
                 </a>
             </li>
             <li>
@@ -126,13 +155,37 @@
         </ul>
     </nav>
 </header>
-<main class="main">
+<main class="main"> 
 <header class="page-header">
-    <h1>Categories</h1>
+  <h1>
+    GNU/Linux
+  </h1>
 </header>
+<div class="post-content"><!-- markdownlint-disable MD033 -->
+<p>The intention of this section is to keep tutorials or notes about general topics, as GNU apps, QEMU,
+distro installations, etc.</p>
+<div class="img-center">
+  <img src="../../images/General/gnulinux-logo.png" alt="Bit shifting">
+  <div class="img-caption">GNU: GNU's Not Unix.</div>
+</div>
 
-<ul class="terms-tags">
-</ul>
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Installing Debian in a virtualized environment
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Need a safe sandbox to test drivers or experiments without risking your main OS? A virtual machine (VM) is a fast, safe way to do it with KVM/QEMU.
+Prerequisites A Debian/Ubuntu host with hardware virtualization CPU virtualization enabled in BIOS/UEFI (Intel VT-x or AMD-V) Quick checks:
+1 2 3 4 5 # CPU supports virtualization? (&gt;0 means yes) egrep -c &#39;(vmx|svm)&#39; /proc/cpuinfo lscpu | grep -i virtualization || true # Optional on Ubuntu: sudo apt install cpu-checker &amp;&amp; kvm-ok Installation Let’s update the system and install the necessary tools:
+...</p>
+  </div>
+  <footer class="entry-footer">3 min</footer>
+  <a class="entry-link" aria-label="post link to Installing Debian in a virtualized environment" href="https://jlmunix.github.io/my-notes/posts/general/qemu/qemu_install/"></a>
+</article>
     </main>
     
 <footer class="footer">
