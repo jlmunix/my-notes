@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GNU/Linux on Personal site of myself</title>
-    <link>https://jlmunix.github.io/my-notes/posts/general/</link>
+    <link>http://localhost:1313/posts/general/</link>
     <description>Recent content in GNU/Linux on Personal site of myself</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
-    <atom:link href="https://jlmunix.github.io/my-notes/posts/general/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Debian in a virtualized environment</title>
-      <link>https://jlmunix.github.io/my-notes/posts/general/qemu/qemu_install/</link>
+      <link>http://localhost:1313/posts/general/qemu/qemu_install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jlmunix.github.io/my-notes/posts/general/qemu/qemu_install/</guid>
+      <guid>http://localhost:1313/posts/general/qemu/qemu_install/</guid>
       <description>&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;p&gt;Need a safe sandbox to test drivers or experiments without risking your main OS? A virtual machine (VM) is a fast, safe way to do it with KVM/QEMU.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
