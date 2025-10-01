@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal site of myself</title>
-    <link>http://localhost:1313/</link>
+    <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/</link>
     <description>Recent content on Personal site of myself</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Sep 2025 15:30:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jlmunix.github.io/my-notes--cleanDestinationDir/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World.ko</title>
-      <link>http://localhost:1313/posts/linux/modules/hello_world/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/linux/modules/hello_world/</link>
       <pubDate>Mon, 29 Sep 2025 15:30:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/linux/modules/hello_world/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/linux/modules/hello_world/</guid>
       <description>&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;h2 id=&#34;simple-hello-world-module-to-start&#34;&gt;Simple hello world module to start&lt;/h2&gt;
 &lt;p&gt;This hello world kernel module has been developed as a starting point.
 It is also considered that a &lt;strong&gt;buildroot(BR)&lt;/strong&gt; and &lt;strong&gt;kernel(external to BR)&lt;/strong&gt; has been previously
 built.&lt;/p&gt;
 &lt;figure class=&#34;img-center&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/Linux/structure.png&#34;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://jlmunix.github.io/my-notes--cleanDestinationDir/images/Linux/structure.png&#34;
          alt=&#34;Description&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;File structure of buildroot and linux&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -38,9 +38,9 @@ built.&lt;/p&gt;
     </item>
     <item>
       <title>Bit parity counter (folding method) ..</title>
-      <link>http://localhost:1313/posts/programming/c/bit_parity_counter_folding/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/bit_parity_counter_folding/</link>
       <pubDate>Sun, 27 Jul 2025 02:13:44 -0400</pubDate>
-      <guid>http://localhost:1313/posts/programming/c/bit_parity_counter_folding/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/bit_parity_counter_folding/</guid>
       <description>&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Bit shifting is one of the most powerful tools in a low-level programmer&amp;rsquo;s toolbox. It allows direct manipulation of individual bits — a feature that shines in embedded systems, digital signal processing, and algorithm optimization.&lt;/p&gt;
@@ -48,9 +48,9 @@ built.&lt;/p&gt;
     </item>
     <item>
       <title>Hola Mundo</title>
-      <link>http://localhost:1313/posts/hola-mundo/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/hola-mundo/</link>
       <pubDate>Thu, 24 Jul 2025 17:52:28 -0400</pubDate>
-      <guid>http://localhost:1313/posts/hola-mundo/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/hola-mundo/</guid>
       <description>&lt;p&gt;Este es mi primer post técnico con Hugo y PaperMod.&lt;/p&gt;
 &lt;p&gt;Este un codigo de ejemplo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -72,38 +72,38 @@ Mas texto&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/programming/c&#43;&#43;/arithmeticlogicalshifting/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c&#43;&#43;/arithmeticlogicalshifting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/programming/c&#43;&#43;/arithmeticlogicalshifting/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c&#43;&#43;/arithmeticlogicalshifting/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/programming/c&#43;&#43;/arithmeticlogicalshifting/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/programming/c&#43;&#43;/arithmeticlogicalshifting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/programming/c&#43;&#43;/arithmeticlogicalshifting/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/programming/c&#43;&#43;/arithmeticlogicalshifting/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/programming/c/workin_with_memory/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/programming/c/workin_with_memory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/programming/c/workin_with_memory/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/programming/c/workin_with_memory/</guid>
       <description></description>
     </item>
     <item>
       <title>Home</title>
-      <link>http://localhost:1313/posts/index_tutorials/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/index_tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/index_tutorials/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/index_tutorials/</guid>
       <description>&lt;h2 id=&#34;my-tutorials&#34;&gt;My Tutorials&lt;/h2&gt;
 &lt;h2 id=&#34;general-topics&#34;&gt;General topics&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/general&#34;&gt;General topics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/general&#34;&gt;General topics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;programming-posts&#34;&gt;Programming posts&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/programming/&#34;&gt;C/C++&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/&#34;&gt;C/C++&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;bootloaders&#34;&gt;Bootloaders&lt;/h2&gt;
 &lt;ul&gt;
@@ -113,15 +113,15 @@ Mas texto&lt;/p&gt;</description>
 &lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[No posts yet]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/Linux/Modules/&#34;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/Linux/Modules/&#34;&gt;Linux&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- - [Sample Linux tuto](/posts/something/) --&gt;</description>
     </item>
     <item>
       <title>Installing Debian in a virtualized environment</title>
-      <link>http://localhost:1313/posts/general/qemu/qemu_install/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/general/qemu/qemu_install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/general/qemu/qemu_install/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/general/qemu/qemu_install/</guid>
       <description>&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;p&gt;Need a safe sandbox to test drivers or experiments without risking your main OS? A virtual machine (VM) is a fast, safe way to do it with KVM/QEMU.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
@@ -151,9 +151,9 @@ Mas texto&lt;/p&gt;</description>
     </item>
     <item>
       <title>Working with memory</title>
-      <link>http://localhost:1313/posts/programming/c/workin_with_memory/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/workin_with_memory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/programming/c/workin_with_memory/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/workin_with_memory/</guid>
       <description>&lt;p&gt;A collection of programming-related articles and tutorials.&lt;/p&gt;
 &lt;p&gt;Imagine the following scenario:&lt;/p&gt;
 &lt;blockquote&gt;

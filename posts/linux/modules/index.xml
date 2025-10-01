@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Modules on Personal site of myself</title>
-    <link>http://localhost:1313/posts/linux/modules/</link>
+    <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/linux/modules/</link>
     <description>Recent content in Modules on Personal site of myself</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Sep 2025 15:30:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/linux/modules/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/linux/modules/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World.ko</title>
-      <link>http://localhost:1313/posts/linux/modules/hello_world/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/linux/modules/hello_world/</link>
       <pubDate>Mon, 29 Sep 2025 15:30:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/linux/modules/hello_world/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/linux/modules/hello_world/</guid>
       <description>&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;h2 id=&#34;simple-hello-world-module-to-start&#34;&gt;Simple hello world module to start&lt;/h2&gt;
 &lt;p&gt;This hello world kernel module has been developed as a starting point.
 It is also considered that a &lt;strong&gt;buildroot(BR)&lt;/strong&gt; and &lt;strong&gt;kernel(external to BR)&lt;/strong&gt; has been previously
 built.&lt;/p&gt;
 &lt;figure class=&#34;img-center&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/Linux/structure.png&#34;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://jlmunix.github.io/my-notes--cleanDestinationDir/images/Linux/structure.png&#34;
          alt=&#34;Description&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;File structure of buildroot and linux&lt;/p&gt;
         &lt;/figcaption&gt;

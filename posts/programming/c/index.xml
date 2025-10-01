@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C Programming on Personal site of myself</title>
-    <link>http://localhost:1313/posts/programming/c/</link>
+    <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/</link>
     <description>Recent content in C Programming on Personal site of myself</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jul 2025 02:13:44 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/programming/c/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bit parity counter (folding method) ..</title>
-      <link>http://localhost:1313/posts/programming/c/bit_parity_counter_folding/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/bit_parity_counter_folding/</link>
       <pubDate>Sun, 27 Jul 2025 02:13:44 -0400</pubDate>
-      <guid>http://localhost:1313/posts/programming/c/bit_parity_counter_folding/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/bit_parity_counter_folding/</guid>
       <description>&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Bit shifting is one of the most powerful tools in a low-level programmer&amp;rsquo;s toolbox. It allows direct manipulation of individual bits — a feature that shines in embedded systems, digital signal processing, and algorithm optimization.&lt;/p&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Working with memory</title>
-      <link>http://localhost:1313/posts/programming/c/workin_with_memory/</link>
+      <link>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/workin_with_memory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/programming/c/workin_with_memory/</guid>
+      <guid>https://jlmunix.github.io/my-notes--cleanDestinationDir/posts/programming/c/workin_with_memory/</guid>
       <description>&lt;p&gt;A collection of programming-related articles and tutorials.&lt;/p&gt;
 &lt;p&gt;Imagine the following scenario:&lt;/p&gt;
 &lt;blockquote&gt;
