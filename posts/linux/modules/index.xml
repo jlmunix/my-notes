@@ -19,7 +19,7 @@
 It is also considered that a &lt;strong&gt;buildroot(BR)&lt;/strong&gt; and &lt;strong&gt;kernel(external to BR)&lt;/strong&gt; has been previously
 built.&lt;/p&gt;
 &lt;figure class=&#34;img-center&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://jlmunix.github.io/my-notes/images/Linux/structure.png&#34;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/Linux/structure.png&#34;
          alt=&#34;Description&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;File structure of buildroot and linux&lt;/p&gt;
         &lt;/figcaption&gt;

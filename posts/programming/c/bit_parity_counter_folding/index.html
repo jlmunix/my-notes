@@ -318,20 +318,20 @@ One common use of bitwise operations is checking parity — whether the number o
 significant one, so later we can check if the variable (containing now only one bit) has a <code>1</code> or <code>0</code>, we will add it
 to our counter variable <code>count</code>.</p>
 <div class="img-center">
-  <img src="/images/parity_counter/bit_masking.png" alt="Bit Masking">
+  <img src="images/parity_counter/bit_masking.png" alt="Bit Masking">
   <div class="img-caption">Bit Masking: Only the least significant bit is kept.</div>
 </div>
 <p>Now we can count the remaining bit by adding it to our <code>count</code> variable.</p>
 <h3 id="-shifting">🧩 Shifting<a hidden class="anchor" aria-hidden="true" href="#-shifting">#</a></h3>
 <p>What is bit shifting? It is the displacement of bits in one direction, right or left. See the following animation:</p>
 <div class="img-center">
-  <img src="/images/parity_counter/shift.gif" alt="Bit shifting">
+  <img src="images/parity_counter/shift.gif" alt="Bit shifting">
   <div class="img-caption">Bit Shifting: Moving the bits in one direction.</div>
 </div>
 <p>Now we need to <code>shift</code> the variable (moving all bits to right/left) <code>n</code> to the right by one position to apply
 the same method above and count again the remaining bit.</p>
 <div class="img-center">
-  <img src="/images/parity_counter/bit_shifting.png" alt="Bit shifting">
+  <img src="images/parity_counter/bit_shifting.png" alt="Bit shifting">
   <div class="img-caption">Bit Shifting: All bits are moved to the right one position.</div>
 </div>
 <h3 id="-the-last-part">⚡ The last part<a hidden class="anchor" aria-hidden="true" href="#-the-last-part">#</a></h3>
