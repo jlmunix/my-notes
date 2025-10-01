@@ -20,14 +20,14 @@
 &lt;li&gt;&lt;strong&gt;Logical Right Shift&lt;/strong&gt;: Always fills the leftmost bits with zeros, regardless of the original sign bit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;img-center&#34;&gt;
-  &lt;img src=&#34;images/ArithmeticLogicShifting/zeroes.png&#34; alt=&#34;Logical Right Shift - Fill with zeros&#34;&gt;
+  &lt;img src=&#34;../../../../images/ArithmeticLogicShifting/zeroes.png&#34; alt=&#34;Logical Right Shift - Fill with zeros&#34;&gt;
   &lt;div class=&#34;img-caption&#34;&gt;Logic: Fill new bits with zeros&lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Arithmetic Right Shift&lt;/strong&gt;: Preserves the sign bit by filling the leftmost bits with the original sign bit value&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;img-center&#34;&gt;
-  &lt;img src=&#34;images/ArithmeticLogicShifting/ones.png&#34; alt=&#34;Arithmetic Right Shift - Fill with sign bit&#34;&gt;
+  &lt;img src=&#34;../../../../images/ArithmeticLogicShifting/ones.png&#34; alt=&#34;Arithmetic Right Shift - Fill with sign bit&#34;&gt;
   &lt;div class=&#34;img-caption&#34;&gt;Arithmetic: Fill new bits with ones&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The leftmost bit is preserved, thus shifted bits are filled with ones.&lt;/p&gt;</description>
